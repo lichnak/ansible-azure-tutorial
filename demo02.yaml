@@ -1,0 +1,11 @@
+- name: Playbook to deploy resource group using variable
+  hosts: localhost
+  connection: local
+  gather_facts: False
+  vars:
+    group: "myansiblegroup"
+  tasks:
+  - name: Ensure resource group exists
+    azure_rm_resourcegroup:
+      name: "{{ group }}"
+      location: westeurope

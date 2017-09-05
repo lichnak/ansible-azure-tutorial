@@ -1,0 +1,9 @@
+- name: Playbook to deploy resource group
+  hosts: localhost
+  connection: local
+  gather_facts: False
+  tasks:
+  - name: Ensure resource group exists
+    azure_rm_resourcegroup:
+      name: myansiblegroup
+      location: westeurope
