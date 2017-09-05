@@ -25,6 +25,7 @@ ansible-playbook demo03.yaml
 ansible-playbook demo03.yaml
 
 demonstrate whole process again with different resource group:
+
 ansible-playbook demo03.yaml -e group=myanasiblegroup2
 
 
