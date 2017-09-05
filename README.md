@@ -6,14 +6,29 @@ This is simple tutorial to demonstrate how to get started with provisioning Azur
 
 Follow Internet documentation to install Ansible and Azure Python SDK. Make sure you create Service Principal account in Azure (register application) and provide details either via environmental variables (example is in azurecredentials.rc.example), via ansible configuration file or any other method.
 
-## demo01 - ensure Azure resource group exists
+## demo01 - Playbook to deploy resource group
 ansible-playbook demo01.yaml
 
-## demo02 - use variable
+## demo02 - Playbook to deploy resource group using variable
 ansible-playbook demo02.yaml
 
-## demo03 - add network and subnet resources
+## demo03 - Playbook to deploy resource group and virtual network
 ansible-playbook demo03.yaml
+
+## demo04 - Playbook to deploy network and VM
+ansible-playbook demo03.yaml
+
+## demo05 - Playbook to deploy network and VM, print its public IP and wait for SSH connection 
+ansible-playbook demo03.yaml
+
+## demo06 - Playbook to deploy network and VM, print its public IP and wait for SSH connection
+ansible-playbook demo03.yaml
+
+demonstrate whole process again with different resource group:
+ansible-playbook demo03.yaml -e group=myanasiblegroup2
+
+
+
 
 
 
