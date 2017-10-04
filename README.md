@@ -1,4 +1,13 @@
 # Ansible with Azure tutorial
+- [Ansible with Azure tutorial](#ansible-with-azure-tutorial)
+    - [Install, setup](#install-setup)
+    - [demo01 - Playbook to deploy resource group](#demo01---playbook-to-deploy-resource-group)
+    - [demo02 - Playbook to deploy resource group using variable](#demo02---playbook-to-deploy-resource-group-using-variable)
+    - [demo03 - Playbook to deploy resource group and virtual network](#demo03---playbook-to-deploy-resource-group-and-virtual-network)
+    - [demo04 - Playbook to deploy network and VM](#demo04---playbook-to-deploy-network-and-vm)
+    - [demo05 - Playbook to deploy network and VM, print its public IP and wait for SSH connection](#demo05---playbook-to-deploy-network-and-vm-print-its-public-ip-and-wait-for-ssh-connection)
+    - [demo06 - Playbook to deploy network and VM, print its public IP and wait for SSH connection](#demo06---playbook-to-deploy-network-and-vm-print-its-public-ip-and-wait-for-ssh-connection)
+
 
 This is simple tutorial to demonstrate how to get started with provisioning Azure with Ansible. For complete more complex real-life example please check my ansible-azure repo.
 
